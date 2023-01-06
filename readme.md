@@ -1,5 +1,7 @@
 # Simple Snake game
 
+[Play here]([https://link-url-here.org](https://bumbeneciconstantinbogdan.github.io/typescript-snake/)
+
 This simple game was built to accomplish all the task required for my homework:
 
 - Object oriented programming ( With the help of typescript )
