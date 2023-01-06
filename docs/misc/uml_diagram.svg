@@ -1,0 +1,60 @@
+<svg version="1.1" baseProfile="full" width="323.0" height="419.0" viewbox="0 0 323 419" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+<desc >#.interface: fill=lightblue
+#.enumeration: fill=lightgreen
+#.type: fill=lightgray
+[Game|-_points: number;-_snake: Snake;-_size: number;-_direction: Direction;-_pause: boolean;-_apple: Point;-_gameOver: boolean;-_gameFrame: GameElement\[\]\[\];-_reset: boolean;-_difficulty: Difficulty;-_win: boolean|-run(): void;+checkForWin(): void;-generateRandomApple(): Point;-checkAppleEaten(): void;-checkBodyCollision(): void;-checkWallCollision(): void;-updateGameFrame(): void;+triggerReset(): void;+changeDifficulty(): void]</desc>
+<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="normal" font-style="normal">
+<g transform="translate(0.5, 0.5)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+<g stroke="transparent" fill="transparent">
+<rect x="0.0" y="0.0" height="419.0" width="323.0" stroke="none"></rect>
+</g>
+<g transform="translate(8, 8)" fill="#33322E">
+<g transform="translate(20, 20)">
+<g data-name="Game">
+<g fill="#eee8d5" stroke="#33322E" data-name="Game">
+<rect x="0.0" y="0.0" height="363.0" width="267.0" data-name="Game"></rect>
+<path d="M0.0 31.0 L267.0 31.0" fill="none" data-name="Game"></path>
+<path d="M0.0 212.0 L267.0 212.0" fill="none" data-name="Game"></path>
+</g>
+<g transform="translate(0, 0)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Game">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Game">
+<a id="../Controller/Game.ts.Game" xlink:href="../Controller/Game.ts"><text x="125.5" y="13.5" stroke="none" text-anchor="middle" data-name="Game">Game</text></a>
+
+</g>
+</g>
+<g transform="translate(0, 31)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Game">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Game">
+<text x="0.0" y="13.5" stroke="none" data-name="Game">-_points: number</text>
+<text x="0.0" y="28.5" stroke="none" data-name="Game">-_snake: Snake</text>
+<text x="0.0" y="43.5" stroke="none" data-name="Game">-_size: number</text>
+<text x="0.0" y="58.5" stroke="none" data-name="Game">-_direction: Direction</text>
+<text x="0.0" y="73.5" stroke="none" data-name="Game">-_pause: boolean</text>
+<text x="0.0" y="88.5" stroke="none" data-name="Game">-_apple: Point</text>
+<text x="0.0" y="103.5" stroke="none" data-name="Game">-_gameOver: boolean</text>
+<text x="0.0" y="118.5" stroke="none" data-name="Game">-_gameFrame: GameElement[][]</text>
+<text x="0.0" y="133.5" stroke="none" data-name="Game">-_reset: boolean</text>
+<text x="0.0" y="148.5" stroke="none" data-name="Game">-_difficulty: Difficulty</text>
+<text x="0.0" y="163.5" stroke="none" data-name="Game">-_win: boolean</text>
+
+</g>
+</g>
+<g transform="translate(0, 212)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Game">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Game">
+<text x="0.0" y="13.5" stroke="none" data-name="Game">-run(): void</text>
+<text x="0.0" y="28.5" stroke="none" data-name="Game">+checkForWin(): void</text>
+<text x="0.0" y="43.5" stroke="none" data-name="Game">-generateRandomApple(): Point</text>
+<text x="0.0" y="58.5" stroke="none" data-name="Game">-checkAppleEaten(): void</text>
+<text x="0.0" y="73.5" stroke="none" data-name="Game">-checkBodyCollision(): void</text>
+<text x="0.0" y="88.5" stroke="none" data-name="Game">-checkWallCollision(): void</text>
+<text x="0.0" y="103.5" stroke="none" data-name="Game">-updateGameFrame(): void</text>
+<text x="0.0" y="118.5" stroke="none" data-name="Game">+triggerReset(): void</text>
+<text x="0.0" y="133.5" stroke="none" data-name="Game">+changeDifficulty(): void</text>
+
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

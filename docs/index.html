@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module">
+        import {loadModule} from "https://klesun.github.io/ts-browser/src/ts-browser.js";
+        loadModule("./index.ts");
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
+    <title>Simple Snake</title>
+</head>
+<body>
+    <h1>Simple snake game</h1>
+    <h3 id="difficulty">Difficulty: </h3>
+    <h3 id="score">Score: 0</h3>
+    <div tabindex="0" id="grid"></div>
+    <div id="controls">
+        <ul>
+            <li>W, A, S, D - Change snake direction</li>
+            <li>R - Reset game</li>
+            <li>F - Change difficulty</li>
+            <li>M - Enjoy game with music</li>
+            <li>Space - Pause / unpause game</li>
+        </ul>
+    </div>
+</body>
+<style>
+    body{
+        color: #F0F0F0;
+        background: #0F0F0F;
+        font-family: "Rowdies", cursive;
+        margin: .5em 4em;
+    }
+</style>
+</html>
