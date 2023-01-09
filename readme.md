@@ -7,6 +7,7 @@ This simple game was built to accomplish all the task required for my homework:
 - Object oriented programming ( With the help of typescript )
 - Write some test (Jest came in help)
 - Draw some UML (using InteliJ diagrams)
+- Keep track of dependencies (package.json)
 - Upload on github :)
 
 
